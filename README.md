@@ -4,7 +4,7 @@ Da ilustrujemo ovaj primjer, koristili smo CalCOFI okeanografske podatke, preuze
 
 Koristeći fajl bottle.csv, napravili smo bottle.xlsx, koji je zatim korišćen u primjeru. Originalni bottle.csv je redukovan, izbacujući nepotrebne kolone, tako da ostanu samo dvije relevantne kolone: salinitet vode i temperatura vode.
 
-Zatim, kolone su skraćene na ~10000 redova, jer originalni bottle.csv sadrži ~814000 redova i veličine je ~49MB, šro predstavlja problem za softverski paket koji smo koristili u rješavanju problema.
+Zatim, kolone su skraćene na ~10000 redova, jer originalni bottle.csv sadrži ~814000 redova i veličine je ~49MB, što predstavlja problem za softverski paket koji smo koristili u rješavanju problema.
 
 **Python skripta**
 
@@ -12,7 +12,7 @@ Podatke učitavamo koristeći _pandas_ paket i zatim isfiltriramo, izbacujući (
 
 Linearna regresija se postiže korišćenjem _stats_-a, a rezultujući podaci su iskorišćeni da iscrtamo linearnu funkciju kroz originalnu grupu podataka.
 
-Korišćenjem _R-vrijednosti_ ograničavamo moguće granice i pokušavamo da iscrtamo nekoliko različitih podataka.
+Korišćenjem _R-vrijednosti_ ograničavamo moguće granice grešaka i pokušavamo da iscrtamo nekoliko različitih podataka.
 
 **Prilozi**
 
